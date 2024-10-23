@@ -20,74 +20,135 @@
     <section class="container">
         <h2>Diagnosis Gejala</h2>
         <form id="diagnosisForm">
-            <label>Apakah umbi bawang kecil?</label>
-            <select id="umbiKecil">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+             <!-- G01: Tanaman layu? -->
+    <label>Apakah tanaman layu?</label>
+    <select id="G01">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah leher batang terpotong?</label>
-            <select id="leherTerpotong">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G09: Daun menguning? -->
+    <label>Apakah daun menguning?</label>
+    <select id="G09">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah daun menguning?</label>
-            <select id="daunMenguning">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G11: Terdapat bercak hitam? -->
+    <label>Apakah terdapat bercak hitam?</label>
+    <select id="G11">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah daun terpelintir layu dan mudah tercabut?</label>
-            <select id="daunTercabut">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G12: Akar busuk? -->
+    <label>Apakah akar busuk?</label>
+    <select id="G12">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah umbi membusuk?</label>
-            <select id="umbiBusuk">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G13: Daun mengkerut? -->
+    <label>Apakah daun mengkerut?</label>
+    <select id="G13">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah tanaman mati dimulai dari ujung daun menjalar hingga ke bagian bawah?</label>
-            <select id="tanamanMati">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G14: Daun rontok? -->
+    <label>Apakah daun rontok?</label>
+    <select id="G14">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah terdapat bercak melekuk pada daun berwarna putih atau kelabu?</label>
-            <select id="bercakMelekuk">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G15: Ada bercak ungu? -->
+    <label>Apakah ada bercak ungu?</label>
+    <select id="G15">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah terdapat bercak berbentuk cincin berwarna ungu kemerahan?</label>
-            <select id="bercakCincin">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G16: Tanaman tampak kerdil? -->
+    <label>Apakah tanaman tampak kerdil?</label>
+    <select id="G16">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah ujung daun mengering bahkan patah?</label>
-            <select id="ujungDaunPatah">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G17: Terdapat larva? -->
+    <label>Apakah terdapat larva?</label>
+    <select id="G17">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah umbi mengering berwarna gelap?</label>
-            <select id="umbiGelap">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G18: Tanaman tumbuh tidak normal? -->
+    <label>Apakah tanaman tumbuh tidak normal?</label>
+    <select id="G18">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <label>Apakah pangkal daun bawang mengecil?</label>
-            <select id="pangkalDaunMengecil">
-                <option value="tidak">Tidak</option>
-                <option value="ya">Ya</option>
-            </select>
+    <!-- G19: Terdapat bercak coklat? -->
+    <label>Apakah terdapat bercak coklat?</label>
+    <select id="G19">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
 
-            <button type="button" onclick="diagnose()">Diagnosis</button>
-        </form>
+    <!-- G20: Daun menghitam? -->
+    <label>Apakah daun menghitam?</label>
+    <select id="G20">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G21: Tumbuhan terkena virus? -->
+    <label>Apakah tumbuhan terkena virus?</label>
+    <select id="G21">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G22: Daun terlihat bercak-bercak? -->
+    <label>Apakah daun terlihat bercak-bercak?</label>
+    <select id="G22">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G23: Akar berwarna hitam? -->
+    <label>Apakah akar berwarna hitam?</label>
+    <select id="G23">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G24: Terdapat jamur pada batang? -->
+    <label>Apakah terdapat jamur pada batang?</label>
+    <select id="G24">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G25: Tanaman terhambat pertumbuhannya? -->
+    <label>Apakah tanaman terhambat pertumbuhannya?</label>
+    <select id="G25">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <!-- G26: Daun tampak berbintik? -->
+    <label>Apakah daun tampak berbintik?</label>
+    <select id="G26">
+        <option value="tidak">Tidak</option>
+        <option value="ya">Ya</option>
+    </select>
+
+    <button type="button" onclick="diagnose()">Diagnosis</button>
+</form>
+
 
         <div id="result" class="result"></div>
     </section>
