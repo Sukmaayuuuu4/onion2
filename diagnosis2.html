@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis Penyakit Bawang Merah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Diagnosis Penyakit Bawang Merah</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="diagnosis2.html">Diagnosis Penyakit</a>
+        <a href="kontak2.html">Kontak Ahli</a>
+    </nav>
+
+    <section class="container">
+        <h2>Diagnosis Gejala</h2>
+        <form id="diagnosisForm">
+            <label>Apakah umbi bawang kecil?</label>
+            <select id="umbiKecil">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah leher batang terpotong?</label>
+            <select id="leherTerpotong">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah daun menguning?</label>
+            <select id="daunMenguning">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah daun terpelintir layu dan mudah tercabut?</label>
+            <select id="daunTercabut">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah umbi membusuk?</label>
+            <select id="umbiBusuk">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah tanaman mati dimulai dari ujung daun menjalar hingga ke bagian bawah?</label>
+            <select id="tanamanMati">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah terdapat bercak melekuk pada daun berwarna putih atau kelabu?</label>
+            <select id="bercakMelekuk">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah terdapat bercak berbentuk cincin berwarna ungu kemerahan?</label>
+            <select id="bercakCincin">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah ujung daun mengering bahkan patah?</label>
+            <select id="ujungDaunPatah">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah umbi mengering berwarna gelap?</label>
+            <select id="umbiGelap">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <label>Apakah pangkal daun bawang mengecil?</label>
+            <select id="pangkalDaunMengecil">
+                <option value="tidak">Tidak</option>
+                <option value="ya">Ya</option>
+            </select>
+
+            <button type="button" onclick="diagnose()">Diagnosis</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
